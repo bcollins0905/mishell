@@ -53,9 +53,10 @@ require("./app/routing/html-routes.js")(app);
 // Starts the server to begin listening
 // =============================================================
 db.sequelize.sync().then(function() {
-app.listen(process.env.PORT || 3000, function(){
-  console.log("Express server listening on port %d in %s mode", this.address().port, app.settings.env);
-	});
+app.listen(PORT, function() {
+  console.log("App listening on PORT " + PORT);
+  });
 })
+
 // Export connection for our ORM to use.
 module.exports = connection;

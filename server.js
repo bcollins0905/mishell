@@ -31,11 +31,14 @@ require("./app/routing/html-routes.js")(app);
 
 // Starts the server to begin listening
 // =============================================================
-db.sequelize.sync().then(function() {
-app.listen(PORT, function() {
-  console.log("App listening on PORT " + PORT);
-  });
-.catch("error : ")
+db.sequelize.sync()
+.then(function() {
+	app.listen(PORT, function() {
+	  console.log("App listening on PORT " + PORT);
+	});
+})
+.catch(error => {
+	console.log('Error synicng with db: ', error)
 })
 
 // Export connection for our ORM to use.

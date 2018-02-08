@@ -13,6 +13,12 @@ var PORT = process.env.PORT || 8080;
 var mysql = require("mysql");
 var connection;
 
+console.log('')
+console.log('')
+console.log('process.env: ', JSON.stringify(process.env, null, 2))
+console.log('')
+console.log('')
+
 if (process.env.JAWSDB_URL) {
   connection = mysql.createConnection(process.env.JAWSDB_URL)
   console.log("Jaws : " + process.env.JAWSDB_URL)

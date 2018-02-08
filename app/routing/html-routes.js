@@ -14,7 +14,7 @@ module.exports = function(app) {
   // Each of the below routes just handles the HTML page that the user gets sent to.
 
   // index route loads view.html
-  app.get("/", function(req, res) {
+  app.get("../app/public/index.html", function(req, res) {
     res.sendFile(path.join(__dirname, "../app/public/index.html"));
   });
 

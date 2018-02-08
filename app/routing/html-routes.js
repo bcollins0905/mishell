@@ -14,14 +14,14 @@ module.exports = function(app) {
   // Each of the below routes just handles the HTML page that the user gets sent to.
 
   // index route loads view.html
-  app.get("../app/public/index.html", function(req, res) {
-    res.sendFile(path.join(__dirname, "../app/public/index.html"));
+  app.get("/", function(req, res) {
+    res.sendFile(path.join(__dirname, "/../public/index.html"));
   });
 
   // add route loads the add.html page,
   // where users can enter new characters to the db
-  app.get("/programs", function(req, res) {
-    res.sendFile(path.join(__dirname, "../app/public/programs.html"));
+  app.get("/add", function(req, res) {
+    res.sendFile(path.join(__dirname, "/../public/add.html"));
   });
 
   // all route loads the all.html page,

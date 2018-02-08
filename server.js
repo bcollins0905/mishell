@@ -15,6 +15,7 @@ var connection;
 
 if (process.env.JAWSDB_URL) {
   connection = mysql.createConnection(process.env.JAWSDB_URL)
+  console.log("Jaws : " + process.env.JAWSDB_URL)
 } else {
 
   connection = mysql.createConnection({
@@ -59,4 +60,4 @@ app.listen(PORT, function() {
 })
 
 // Export connection for our ORM to use.
-// module.exports = connection;
+module.exports = connection;

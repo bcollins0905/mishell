@@ -10,14 +10,8 @@ var path = require('path');
 // =============================================================
 var app = express();
 var PORT = process.env.PORT || 8080;
-var mysql = require("mysql");
-var connection;
-
-console.log('')
-console.log('')
-console.log('process.env: ', JSON.stringify(process.env, null, 2))
-console.log('')
-console.log('')
+// var mysql = require("mysql");
+// var connection;
 
 
 app.use(bodyParser.json());

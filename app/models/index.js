@@ -11,15 +11,15 @@ var db        = {};
 console.log('')
 console.log('')
 console.log('IN models/index.js')
-console.log('JAWS_DB_URL: ', process.env.JAWS_DB_URL)
+console.log('JAWSDB_URL: ', process.env.JAWS_DB_URL)
 console.log('')
 console.log('Config: ', config)
 console.log('')
 console.log('')
 
 
-if (process.env.JAWS_DB_URL) {
-  var sequelize = new Sequelize(process.env.JAWS_DB_URL, config);
+if (process.env.JAWSDB_URL) {
+  var sequelize = new Sequelize(process.env.JAWSDB_URL, config);
 } else {
   var sequelize = new Sequelize(config.database, config.username, config.password, config);
 }

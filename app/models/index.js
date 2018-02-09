@@ -11,7 +11,7 @@ var db        = {};
 console.log('')
 console.log('')
 console.log('IN models/index.js')
-console.log('JAWSDB_URL: ', process.env.JAWS_DB_URL)
+console.log('JAWSDB_URL: ', process.env.JAWSDB_URL)
 console.log('')
 console.log('Config: ', config)
 console.log('')

@@ -9,9 +9,15 @@ background-image: url("background_pattern.jpg")
   margin: 0 auto;
   background: #cfe9f7;
   font-size: 18px;
-  padding: 30px;
+  padding-right: 30px;
+  padding-left: 30px;
   background-color: #F2F1EF;
   padding-bottom: 30px;
+
+}
+
+#first-paragraph{
+  padding-bottom: 25px;
 }
 
 
@@ -74,7 +80,7 @@ background-image: url("background_pattern.jpg")
     background:none !important;
     border-bottom: none !important;
     font-family: 'Assistant', cursive;
-    color: #2a1625;
+    color: white;
     font-size: 25px;
     padding-left: 30px;
     padding-right: 30px;
@@ -116,7 +122,8 @@ p{
   background-color:#f1f1f1;
   box-shadow:-8px 20px 18px grey; 
   margin-top: 40px; 
-  margin-bottom: 25px;
+  margin-bottom: -16px;
+  float: left;
 }
 
 }
@@ -141,20 +148,12 @@ element.style {
 #sign-up-form{
   /*background-image: url("feathers.jpg");*/
   background-color: #d7b190;
-  margin-bottom: 30px;
-  font-family: 'Kalam', cursive;
-  font-size: 35px;
-  width: 979px;
-  height: 291px;
-  padding-top: 15px;
-
- 
-  -moz-border-radius: 50px;
-  -webkit-border-radius: 50px;
-  border-radius: 50px;
-
-  border-radius: 100px / 50px;
-  margin-left: 15px;
+  margin-bottom: 5px;
+  font-family: 'Fredericka the Great', cursive;
+  font-size: 20px;
+  height: 253px;
+  padding-top: 5px;
+  margin-left: 49px;
   display: inline-block;
   text-align: center;
   border-style: double;
@@ -182,6 +181,8 @@ element.style {
   border-style: double;
   border-color: #62686b;
   border-width: 6px;
+  margin-top: 12px;
+  margin-bottom: 12px;
 
 }
 
@@ -229,9 +230,9 @@ footer{
 }
 
 #blog-sign-up-form{
-  background-image: url("blog-pattern.jpg");
+  background-color: #d7b190;
   margin-bottom: 30px;
-  font-family: 'Kalam', cursive;
+  font-family: 'Fredericka the Great', cursive;
   font-size: 20px;
   padding-top: 15px;
   margin-right: 40px;
@@ -247,12 +248,12 @@ footer{
 
 
 #side-bar-content-testimonial{
-  background-image: url("testimonial-sign-up-image.jpg");
+  background-color: #d7b190;
   padding-top: 46px;
   padding-right: 15px;
   margin-bottom: 30px;
   margin-top: 15px;
-  font-family: 'Kalam', cursive;
+  font-family: 'Fredericka the Great', cursive;
   font-size: 20px;
   padding-top: 15px;
   margin-right: 40px;
@@ -264,6 +265,7 @@ footer{
     font-family: 'Playfair Display SC', serif;
     color: #301919;
     font-size: 30px;
+    padding-bottom: 10px;
 
 }
 
@@ -338,7 +340,7 @@ input[type=text], select, textarea {
 
 /* Style the submit button with a specific background color etc */
 input[type=submit] {
-    background-color: #80a87c;
+    background-color: #DAA520;
     color: white;
     padding: 12px 20px;
     border: none;

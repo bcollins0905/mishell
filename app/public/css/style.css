@@ -293,6 +293,20 @@ footer{
   color: #301919 !important;
 }
 
+#program{
+  padding: 15px;
+  font-size: 20px;
+  font-family: 'Kalam', cursive;
+  background-image: url("sky-watercolor.jpg");
+  background-repeat: round;
+  border-style: solid;
+  border-color: #e5d7b9;
+  border-width: 6px;
+  margin-top: 15px;
+  float: left;
+
+}
+
 #sample_blog{
   padding-top: 25px;
 }
@@ -310,6 +324,11 @@ footer{
     margin-top: 152px;
 
 }
+
+#speaking_engagements{
+  padding-top: 116px;
+}
+
 
 #facebook-image{
   /*margin: 0;*/

@@ -26,7 +26,18 @@ background-image: url("background_pattern.jpg")
     color: #301919;
     font-size: 23px;
     text-align: center;
+    padding-bottom: 25px;
 }
+
+hr {
+  border: 0;
+  clear:both;
+  display:block;
+  width: 96%;               
+  background-color:grey;
+  height: 3px;
+}
+
 
 .parallax-mirror{
   height: 600px;
@@ -323,6 +334,11 @@ footer{
     margin-left: 162px;
     margin-top: 100px;
 
+}
+
+#like-what-you-read{
+  text-align: center;
+  margin-bottom: 60px;
 }
 
 #speaking_engagements{

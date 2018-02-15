@@ -102,6 +102,18 @@ hr {
     background-color: transparent !important;
   }
 
+@media only screen and (max-width: 960px) {
+    .nav-tabs>li>a {
+       font-size: 12px;
+    }
+  }
+@media only screen and (max-width: 640px) {
+    .nav-tabs>li>a {
+       font-size: 12px;
+    }
+  }
+
+
 #name{
   font-family: 'Allura';
   font-size: 35px;
@@ -134,6 +146,22 @@ p{
   float: left;
 }
 
+@media only screen and (max-width: 960px) {
+    #about_photo {
+       max-height: 90%; 
+       max-width: 90%;
+       margin-bottom: 12px;
+    }
+  }
+@media only screen and (max-width: 640px) {
+    #about_photo {
+      max-height: 50%; 
+       max-width: 50%;
+       margin-bottom: 12px;
+       padding-right: 12px;
+    }
+  }
+
 #contact_photo{
   box-shadow:-8px 20px 18px grey; 
   margin-top: 40px; 
@@ -141,12 +169,41 @@ p{
 
 }
 
+@media only screen and (max-width: 960px) {
+    #contact_photo {
+       max-height: 90%; 
+       max-width: 90%;
+       margin-bottom: 12px;
+    }
+  }
+@media only screen and (max-width: 640px) {
+    #contact_photo {
+      max-height: 50%; 
+       max-width: 50%;
+       margin-bottom: 20px;
+       padding-right: 12px;
+    }
+  }
+
 #contact_me_message{
   padding-left: 580px;
   margin-top: 148px;
   font-family: 'Kalam', cursive;
 
 }
+
+@media only screen and (max-width: 960px) {
+    #contact_me_message {
+      padding-left: 39px;
+    }
+  }
+
+@media only screen and (max-width: 640px) {
+    #contact_me_message {
+      padding-left: 39px;
+      padding-top: 12px;
+    }
+  }
 
 element.style {
     z-index: 1;
@@ -258,10 +315,32 @@ footer{
   padding: 21px; 
   }
 
+  @media only screen and (max-width: 960px) {
+    #blog-sign-up-form {
+   margin-right: 0px
+    }
+  }
+@media only screen and (max-width: 640px) {
+    #blog-sign-up-form{
+   margin-right: 0px;
+    }
+  }
+
 #side-bar-content{
   padding-top: 59px;
   padding-right: 0px;
 }
+
+@media only screen and (max-width: 960px) {
+    #side-bar-content {
+   margin-right: 0px
+    }
+  }
+@media only screen and (max-width: 640px) {
+    #side-bar-content {
+   margin-right: 0px;
+    }
+  }
 
 
 #side-bar-content-testimonial{
@@ -280,6 +359,18 @@ footer{
   padding: 21px;
   float: right;
 }
+
+@media only screen and (max-width: 960px) {
+    #side-bar-content-testimonial {
+    margin-right: 0px;
+    }
+  }
+@media only screen and (max-width: 640px) {
+    #side-bar-content-testimonial {
+      margin-right: 0px;
+    }
+  }
+
 
 .titles{
     /*font-family: 'Playfair Display SC', serif;*/
@@ -343,6 +434,20 @@ footer{
 
 }
 
+@media only screen and (max-width: 960px) {
+    #contact_buttons{
+  display: flex;
+  justify-content: space-between;
+    }
+  }
+@media only screen and (max-width: 640px) {
+    #contact_buttons{
+   display: flex;
+  justify-content: space-between;
+  }
+}
+
+
 #like-what-you-read{
   text-align: center;
   margin-bottom: 60px;
@@ -362,9 +467,24 @@ footer{
   border-color: #e5d7b9;
   border-width: 6px;
   margin-top: 18px;
-
 }
 
+@media only screen and (max-width: 960px) {
+    #contact_page_contact_buttons {
+      display: flex;
+      justify-content: space-between;
+      max-height: 90%; 
+      max-width: 90%;
+    }
+  }
+@media only screen and (max-width: 640px) {
+    #contact_page_contact_buttons{
+      display: flex;
+      justify-content: space-between;
+      max-height: 50%; 
+      max-width: 50%;
+    }
+  }
 
 #contact-facebook-image{
 display: inline-block;      

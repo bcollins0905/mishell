@@ -315,12 +315,12 @@ footer{
   @media only screen and (max-width: 960px) {
     #blog-sign-up-form {
    padding-left: 10px;
-   margin-left: 82px;
+   margin-left: 130px;
     }
   }
 @media only screen and (max-width: 750px) {
     #blog-sign-up-form{
-   margin-left: 40px;
+   margin-left: 140px;
    margin-right: 40px;
     }
   }
@@ -523,6 +523,7 @@ footer{
       justify-content: space-between;
       max-height: 90%; 
       max-width: 90%;
+      margin-left: 46px;
     }
   }
 @media only screen and (max-width: 750px) {
@@ -531,6 +532,7 @@ footer{
       justify-content: space-between;
       max-height: 50%; 
       max-width: 50%;
+      margin-left: 175px;
     }
   }
 

@@ -39,6 +39,7 @@ hr {
 }
 
 
+
 .parallax-mirror{
   height: 600px;
 
@@ -119,10 +120,6 @@ hr {
 
 #beliefs{
   padding-left: 100px;
-
-  /*background-color: #2a1626;*/
-  /*border-width: 2px;
-  border-radius: 30px/10px; /* horizontal radius / vertical radius */*/
 }
 
 p{
@@ -136,6 +133,18 @@ p{
   margin-bottom: -16px;
   float: left;
 }
+
+#contact_photo{
+  box-shadow:-8px 20px 18px grey; 
+  margin-top: 40px; 
+  margin-bottom: 49px;
+
+}
+
+#contact_me_message{
+  padding-left: 580px;
+  margin-top: 148px;
+  font-family: 'Kalam', cursive;
 
 }
 
@@ -157,7 +166,6 @@ element.style {
 }
 
 #sign-up-form{
-  /*background-image: url("feathers.jpg");*/
   background-color: #d7b190;
   margin-bottom: 5px;
   font-family: 'Fredericka the Great', cursive;
@@ -178,8 +186,6 @@ element.style {
   margin-right: 77px;
   margin-left: 65px;
   text-align: center;
-  /*width: 100px;
-  height: 100px;*/
   
 }
 
@@ -331,8 +337,9 @@ footer{
 }
 
 #contact_buttons{
-    margin-left: 162px;
-    margin-top: 100px;
+  /*  margin-left: 162px;
+    margin-top: 100px;*/
+    display: inline-block;
 
 }
 
@@ -345,19 +352,33 @@ footer{
   padding-top: 166px;
 }
 
+#contact_page_contact_buttons{
+  background-color: #d7b190;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 202px;
+  padding:41px 40px 40px 20px;
+  border-style: solid;
+  border-color: #e5d7b9;
+  border-width: 6px;
+  margin-top: 18px;
 
-#facebook-image{
-  /*margin: 0;*/
+}
+
+
+#contact-facebook-image{
+display: inline-block;      
  
 }
 
-#linkedin-image{
-  /*margin: 0;*/
+#contact-linkedin-image{
+display: inline-block;
  
 }
 
-#mail-image{
-/* margin: 0;*/
+#contact-email-image{
+display: inline-block;
+
  
 }
 

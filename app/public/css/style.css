@@ -343,6 +343,12 @@ footer{
   }
 
 
+@media only screen and (max-width: 960px) {
+    #testimonial_page_content {
+    margin-right: 43px;
+    }
+  }
+
 #side-bar-content-testimonial{
   background-color: #d7b190;
   /*padding-top: 46px;*/
@@ -362,12 +368,12 @@ footer{
 
 @media only screen and (max-width: 960px) {
     #side-bar-content-testimonial {
-    margin-right: 0px;
+    margin-right: 90px;
     }
   }
 @media only screen and (max-width: 750px) {
     #side-bar-content-testimonial {
-      margin-right: 0px;
+      margin-right: 105px;
     }
   }
 
@@ -457,6 +463,12 @@ footer{
   padding-top: 166px;
 }
 
+@media only screen and (max-width: 750px) {
+    #speaking_engagements{
+    padding-top: 9px;
+    }
+  }
+
 #programs_page_contact_buttons{
   display: flex;
   justify-content: space-between;
@@ -479,6 +491,7 @@ footer{
       justify-content: space-between;
       max-height: 50%; 
       max-width: 50%;
+      margin-left: 159px;
     }
   }
 

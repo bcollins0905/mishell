@@ -57,10 +57,9 @@ hr {
 }
 
 #blog_page_content{
-    margin: 25px;
+    
     background-color: #F2F1EF;
-    margin-right: 160px;
-    margin-left: 160px; 
+  
 }
 
 #blog_column{
@@ -70,11 +69,8 @@ hr {
 }
 
 #testimonial_page_content{
-   padding: 25px;
-   margin-right: 160px;
-   margin-left: 160px;
+   margin-left: 43px;
    background-color: #F2F1EF;
-
 }
 
 
@@ -148,10 +144,10 @@ p{
 
 @media only screen and (max-width: 960px) {
     #about_photo {
-       max-height: 80%; 
-       max-width: 80%;
-       margin-bottom: 12px;
-       padding-right: 10px;
+       max-height: 60%; 
+       max-width: 70%;
+       margin-bottom: 18px;
+       padding-right: 12px;
     }
   }
 @media only screen and (max-width: 750px) {
@@ -172,8 +168,8 @@ p{
 
 @media only screen and (max-width: 960px) {
     #contact_photo {
-       max-height: 90%; 
-       max-width: 90%;
+       max-height: 60%; 
+       max-width: 70%;
        margin-bottom: 12px;
     }
   }
@@ -460,6 +456,86 @@ footer{
 #speaking_engagements{
   padding-top: 166px;
 }
+
+#programs_page_contact_buttons{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 202px;
+  padding:41px 40px 40px 20px;
+  margin-top: 18px;
+}
+
+@media only screen and (max-width: 960px) {
+    #progarams_page_contact_buttons {
+      display: flex;
+      justify-content: space-between;
+      max-height: 90%; 
+      max-width: 90%;
+    }
+  }
+@media only screen and (max-width: 750px) {
+    #programs_page_contact_buttons{
+      display: flex;
+      justify-content: space-between;
+      max-height: 50%; 
+      max-width: 50%;
+    }
+  }
+
+
+#testimonials_page_contact_buttons{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 202px;
+  padding:41px 40px 40px 20px;
+  margin-top: 18px;
+}
+
+@media only screen and (max-width: 960px) {
+    #testimonials_page_contact_buttons {
+      display: flex;
+      justify-content: space-between;
+      max-height: 90%; 
+      max-width: 90%;
+    }
+  }
+@media only screen and (max-width: 750px) {
+    #testimonials_page_contact_buttons{
+      display: flex;
+      justify-content: space-between;
+      max-height: 50%; 
+      max-width: 50%;
+    }
+  }
+
+
+#blog_page_contact_buttons{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 202px;
+  padding:41px 40px 40px 20px;
+  margin-top: 18px;
+}
+
+@media only screen and (max-width: 960px) {
+    #blog_page_contact_buttons {
+      display: flex;
+      justify-content: space-between;
+      max-height: 90%; 
+      max-width: 90%;
+    }
+  }
+@media only screen and (max-width: 750px) {
+    #blog_page_contact_buttons{
+      display: flex;
+      justify-content: space-between;
+      max-height: 50%; 
+      max-width: 50%;
+    }
+  }
+
+
+
 
 #contact_page_contact_buttons{
   background-color: #d7b190;

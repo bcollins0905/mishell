@@ -235,6 +235,23 @@ element.style {
   border-width: 6px;
   }
 
+@media only screen and (max-width: 473px) {
+    #sign-up-form {
+  background-color: #d7b190;
+  margin-bottom: 5px;
+  font-family: 'Fredericka the Great', cursive;
+  font-size: 16px;
+  height: 253px;
+/*  padding-top: 5px;*/
+  margin-left: 49px;
+  display: inline-block;
+  text-align: center;
+  border-style: double;
+  border-color: #62686b;
+  border-width: 6px
+    }
+  }
+
 
 #sign-up{
   margin-bottom: 105px;

@@ -235,20 +235,25 @@ element.style {
   border-width: 6px;
   }
 
-@media only screen and (max-width: 473px) {
+@media only screen and (max-width: 400px) {
     #sign-up-form {
   background-color: #d7b190;
-  margin-bottom: 5px;
-  font-family: 'Fredericka the Great', cursive;
-  font-size: 16px;
-  height: 253px;
+  /*margin-bottom: 10px;*/
+  /*font-family: 'Fredericka the Great', cursive;*/
+  font-size: 0px;
+/*  height: 270px;*/
 /*  padding-top: 5px;*/
-  margin-left: 49px;
-  display: inline-block;
+  /*margin-left: 0px;
+  margin-right: 0px;*/
+  /*display: inline-block;*/
   text-align: center;
   border-style: double;
   border-color: #62686b;
-  border-width: 6px
+  border-width: 6px;
+  padding: 0 !important;
+  margin: 0 !important;
+  /*height: 30%;*/
+
     }
   }
 
@@ -260,6 +265,27 @@ element.style {
   text-align: center;
   
 }
+
+@media only screen and (max-width: 400px) {
+    #sign-up {
+  background-color: #d7b190;
+ /* margin-bottom: 5px;*/
+  /*font-family: 'Fredericka the Great', cursive;*/
+  /*font-size: 12px;*/
+  /*height: 270px;*/
+/*  padding-top: 5px;*/
+ /* margin-left: 0px;
+  margin-right: 0px;*/
+/*  display: inline-block;*/
+  text-align: center;
+  border-style: double;
+  border-color: #62686b;
+  border-width: 6px
+  /*width: 50px;*/
+ /* height: 100px;
+*/
+    }
+  }
 
 #email_me{
   background-color: #d7b190;
@@ -288,12 +314,24 @@ form {
 
 input[type=text], input[type=submit] {
     /*width: 100%;*/
-    padding: 12px;
-    margin: 8px 0;
+    padding: 4px;
+    margin: 4px 0;
    /* display: inline-block;*/
     border: 1px solid #ccc;
     /*box-sizing: border-box;*/
 }
+
+@media only screen and (max-width: 400px) {
+    input[type=text], input[type=submit] {
+  
+     /*width: 100%;*/
+    padding: 4px;
+    margin: 4px 0;
+   /* display: inline-block;*/
+    border: 1px solid #ccc;
+    /*box-sizing: border-box;*/
+    }
+  }
 
 input[type=checkbox] {
     margin-top: 16px;

@@ -125,6 +125,15 @@ hr {
   padding-top: 10px;
   }
 
+@media only screen and (max-width: 400px) {
+    #name {
+       font-size: 12px;
+       padding-left: 10px;
+       padding-right: 10px; 
+       text-align: center;
+    }
+  }
+
 #about_font{
       font-family: 'Assistant', cursive;
       color: #645f66;
@@ -398,6 +407,13 @@ footer{
     }
   }
 
+@media only screen and (max-width: 400px) {
+    #blog-sign-up-form{
+      margin-left: 50px;
+      
+    }
+  }
+
 #side-bar-content{
   padding-top: 59px;
   padding-right: 0px;
@@ -622,6 +638,16 @@ footer{
       max-height: 50%; 
       max-width: 50%;
       margin-left: 175px;
+    }
+  }
+
+@media only screen and (max-width: 400px) {
+    #blog_page_contact_buttons{
+      display: flex;
+      justify-content: space-between;
+      max-height: 50%; 
+      max-width: 50%;
+      margin-left: 98px;
     }
   }
 

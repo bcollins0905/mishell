@@ -301,6 +301,16 @@ element.style {
 
 }
 
+@media only screen and (max-width: 400px) {
+    #email_me {
+      font-size: 18px;
+
+    }
+  }
+
+
+
+
 #email_image{
   width: 100px;
   height: 100px;

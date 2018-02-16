@@ -199,6 +199,15 @@ p{
     }
   }
 
+@media only screen and (max-width: 400px) {
+    #contact_photo {
+       max-height: 60%; 
+       max-width: 60%;
+       margin-bottom: 20px;
+       padding-right: 12px;
+    }
+  }
+
 #contact_me_message{
   padding-left: 580px;
   margin-top: 148px;
@@ -713,6 +722,16 @@ footer{
       max-height: 30%; 
       max-width: 30%;
       margin-left: 343px;
+    }
+  }
+
+@media only screen and (max-width: 750px) {
+    #contact_page_contact_buttons{
+      display: flex;
+      justify-content: space-between;
+      max-height: 60%; 
+      max-width: 60%;
+      margin-left: 0px;
     }
   }
 

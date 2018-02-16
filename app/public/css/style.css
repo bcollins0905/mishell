@@ -231,7 +231,8 @@ p{
 @media only screen and (max-width: 400px) {
     #contact_me_message {
       padding-left: 250px;
-      padding-top: 12px;
+      padding-top: 0px;
+      margin-top: 75px;
     }
   }
 

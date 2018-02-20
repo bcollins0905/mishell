@@ -576,6 +576,24 @@ footer{
   padding-top: 166px;
 }
 
+#podcast_image{
+  height: 450px;
+  width: 350px;
+}
+
+#podcast{
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Kalam', cursive;
+}
+
+#podcast_font{
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Kalam', cursive;
+  padding-top: 174px;
+}
+
 @media only screen and (max-width: 750px) {
     #speaking_engagements{
     padding-top: 9px;
